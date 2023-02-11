@@ -1,0 +1,95 @@
+
+
+
+
+CREATE TABLE `loans` (
+
+);
+
+
+CREATE TABLE `loans` (
+  `ID` int NOT NULL,
+  `First Name` text NOT NULL,
+  `Last Name` text NOT NULL,
+  `Email` text NOT NULL,
+  `Loan Amount` int NOT NULL,
+  `Purpose` text NOT NULL,
+  `Status` text NOT NULL
+);
+
+
+INSERT INTO `loans` (
+ `ID`,
+ `FirstName`,
+ `LastName`,
+ `Email`,	
+ `LoanAmount`,
+ `Purpose`,	
+ `Status`
+) VALUES ('1', 'John', 'Doe', 'john.doe@example.com', 
+'10000','HomeImprovement', 'Approved') , ( '2', 'Jane', 'Smith', 
+	'jane.smith@example.com', '5000', 
+	'DebtConsolidation',	'Approved') , ( '3', 'Bob', 
+    'Johnson', 	'bob.johnson@example.com' , '15000' , 	
+    'Business' ,  'Pending' ), ( '4', 'Emily', 'Brown', 
+	'emily.brown@example.com', '8000', 'Vacation',	'Approved' 
+)
+ INSERT INTO `loans` (
+ `ID`,
+ `FirstName`,
+ `LastName`,
+ `Email`,	
+ `LoanAmount`,
+ `Purpose`,	
+ `Status`
+ ) 
+ VALUES ('5', 'Michael', 'Davis' , 'michael.davis@example.com' , 	
+ '20000' , 'Education' , 'Denied' ) ; ('6', 'Sarah', 'Wilson' ,
+	'sarah.wilson@example.com', '12000', 'Car Purchase', 
+	'Approved' )
+
+
+
+SELECT * FROM `loans`
+
+
+SELECT * FROM `loans` WHERE
+ Status='Approved'
+
+
+
+SELECT * FROM `loans` WHERE LoanAmount > 10000
+
+
+UPDATE  ---doubt
+    `loans`
+SET
+    Purpose='Approved'
+WHERE
+    Status='Approved'
+
+
+
+    UPDATE
+    `loans`
+SET
+    LoanAmount=3000
+WHERE
+    ID=2
+
+ 
+ 
+ DELETE FROM `loans` WHERE Status= 'Denied';
+
+
+
+
+
+
+ DELETE FROM `loans` WHERE ID=1;
+
+
+
+
+
+
