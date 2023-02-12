@@ -64,7 +64,7 @@ SELECT * FROM `loans` WHERE LoanAmount > 10000
 UPDATE  ---doubt
     `loans`
 SET
-    Purpose='Approved'
+    Purpose='DebtConsolidation'
 WHERE
     Status='Approved'
 
@@ -93,3 +93,9 @@ WHERE
 
 
 
+SELECT firstname, lastname, loanamount 
+FROM `loans`
+
+
+
+SELECT AVG(loanamount) FROM `loans`
