@@ -34,17 +34,10 @@ INSERT INTO `loans` (
     'Business' ,  'Pending' ), ( '4', 'Emily', 'Brown', 
 	'emily.brown@example.com', '8000', 'Vacation',	'Approved' 
 )
- INSERT INTO `loans` (
- `ID`,
- `FirstName`,
- `LastName`,
- `Email`,	
- `LoanAmount`,
- `Purpose`,	
- `Status`
- ) 
+ INSERT INTO `loans` 
  VALUES ('5', 'Michael', 'Davis' , 'michael.davis@example.com' , 	
- '20000' , 'Education' , 'Denied' ) ; ('6', 'Sarah', 'Wilson' ,
+ '20000' , 'Education' , 'Denied' ) ;
+ ('6', 'Sarah', 'Wilson' ,
 	'sarah.wilson@example.com', '12000', 'Car Purchase', 
 	'Approved' )
 
