@@ -26,19 +26,19 @@ INSERT INTO `loans` (
  `LoanAmount`,
  `Purpose`,	
  `Status`
-) VALUES ('1', 'John', 'Doe', 'john.doe@example.com', 
-'10000','HomeImprovement', 'Approved') , ( '2', 'Jane', 'Smith', 
-	'jane.smith@example.com', '5000', 
-	'DebtConsolidation',	'Approved') , ( '3', 'Bob', 
-    'Johnson', 	'bob.johnson@example.com' , '15000' , 	
-    'Business' ,  'Pending' ), ( '4', 'Emily', 'Brown', 
-	'emily.brown@example.com', '8000', 'Vacation',	'Approved' 
+) VALUES (1, 'John', 'Doe', 'john.doe@example.com', 
+10000,'HomeImprovement', 'Approved') , (2, 'Jane', 'Smith', 
+	'jane.smith@example.com', 5000, 
+	'DebtConsolidation',	'Approved') , ( 3, 'Bob', 
+    'Johnson', 	'bob.johnson@example.com' , 15000 , 	
+    'Business' ,  'Pending' ), ( 4, 'Emily', 'Brown', 
+	'emily.brown@example.com', 8000, 'Vacation',	'Approved' 
 )
  INSERT INTO `loans` 
- VALUES ('5', 'Michael', 'Davis' , 'michael.davis@example.com' , 	
- '20000' , 'Education' , 'Denied' ) ;
- ('6', 'Sarah', 'Wilson' ,
-	'sarah.wilson@example.com', '12000', 'Car Purchase', 
+ VALUES (5, 'Michael', 'Davis' , 'michael.davis@example.com' , 	
+ 20000 , 'Education' , 'Denied' ) ;
+ (6, 'Sarah', 'Wilson' ,
+	'sarah.wilson@example.com', 12000, 'Car Purchase', 
 	'Approved' )
 
 
