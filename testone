@@ -92,3 +92,4 @@ FROM `loans`
 
 
 SELECT AVG(loanamount) FROM `loans`
+WHERE Status='Approved'
